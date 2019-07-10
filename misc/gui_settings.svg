@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<g class="image">
+    <g class="game-area">
+        <!-- Circles -->
+        <circle id="circle" cx="200" cy="200" r="176" fill="#3d4756" stroke="#000000" stroke-width="4"/>
+        <circle id="green" cx="200" cy="80" r="40" fill="#65db3b" stroke="#000000" stroke-width="3"/>
+        <circle id="yellow" cx="80" cy="200" r="40" fill="#dbd83b" stroke="#000000" stroke-width="3"/>
+        <circle id="blue" cx="320" cy="200" r="40" fill="#3b7ddb" stroke="#000000" stroke-width="3"/>
+        <circle id="red" cx="200" cy="320" r="40" fill="#db3b3b" stroke="#000000" stroke-width="3"/>
+        <g class="section-game">
+            <rect id="section-game" rx="12" ry="12" x="143" y="143" width="114" height="114" fill="#6d7c93" stroke="#000000" stroke-width="3"/>
+            <text id="simon" fill="#000000" font-family="Sans-serif" font-size="14" font-weight="bold"  stroke="#000000" stroke-width="0" text-anchor="middle" x="200" xml:space="preserve" y="157.431472">Simon</text>
+            <text id="settings" fill="#000000" font-family="Sans-serif" font-size="12" font-weight="bold"  stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="200.17949" xml:space="preserve" y="172.717949">Settings</text>
+            <text id="num_rounds" fill="#000000" font-family="Sans-serif" font-size="12" font-weight="bold" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" style="cursor: move;" text-anchor="middle" x="200" xml:space="preserve" y="193">No. of Rounds:</text>
+            <rect id="rounds" fill="#ffffff" height="19.230769"  stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" width="52.564102" x="174.10256" y="198.717949"/>
+            <path id="drop-down" d="m208.618414,212.187798l6.73077,-8.41346l6.73077,8.41346l-13.46154,0z" fill="#000000"  stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" transform="rotate(180 215.349 207.981)"/>
+            <rect id="ok" fill="#3b3e47" height="22"  rx="10" ry="10" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" width="44.103862" x="150.130155" y="230.4031"/>
+            <text id="ok" fill="#ffffff" font-family="Sans-serif" font-size="12" stroke="#000000" stroke-width="0" text-anchor="middle" x="171.667962" xml:space="preserve" y="245.123912">Ok</text>
+            <rect id="cancel" fill="#3b3e47" height="22"  rx="10" ry="10" stroke="#000000" stroke-width="2" width="50" x="200.901341" y="230.456851"/>
+            <text id="cancel" fill="#ffffff" font-family="Sans-serif" font-size="12"  stroke="#000000" stroke-width="0" text-anchor="middle" x="225.774437" xml:space="preserve" y="245.177664">Cancel</text>
+        </g>
+    </g>
+</g>
+</svg>

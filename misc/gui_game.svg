@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<g class="image">
+    <g class="game-area">
+        <!-- Circles -->
+        <circle id="circle" cx="200" cy="200" r="176" fill="#3d4756" stroke="#000000" stroke-width="4"/>
+        <circle id="green" cx="200" cy="80" r="40" fill="#65db3b" stroke="#000000" stroke-width="3"/>
+        <circle id="yellow" cx="80" cy="200" r="40" fill="#dbd83b" stroke="#000000" stroke-width="3"/>
+        <circle id="blue" cx="320" cy="200" r="40" fill="#3b7ddb" stroke="#000000" stroke-width="3"/>
+        <circle id="red" cx="200" cy="320" r="40" fill="#db3b3b" stroke="#000000" stroke-width="3"/>
+        <g class="section-game">
+            <rect id="section-game" rx="12" ry="12" x="143" y="143" width="114" height="114" fill="#6d7c93" stroke="#000000" stroke-width="3"/>
+            <text id="simon" fill="#000000" font-family="Sans-serif" font-size="14" font-weight="bold"  stroke="#000000" stroke-width="0" text-anchor="middle" x="200" xml:space="preserve" y="157.431472">Simon</text>
+            <rect id="off" fill="#db3b3b" height="18"  stroke="#000000" stroke-width="0" width="20" x="201" y="160"/>
+            <text id="off" fill="#000000" font-family="Sans-serif" font-size="12" font-weight="bold"  stroke="#000000" stroke-width="0" text-anchor="middle" x="210" xml:space="preserve" y="174">Off</text>
+            <rect id="on" fill="#65db3b" height="18" stroke="#000000" stroke-width="0" width="20" x="178" y="160"/>
+            <text id="on" fill="#000000" font-family="Sans-serif" font-size="12" font-weight="bold" stroke="#000000" stroke-width="0" text-anchor="middle" x="188" xml:space="preserve" y="174">On</text>
+            <rect id="settings" fill="#3b3e47" height="22" rx="10" ry="10" stroke="#000000" stroke-width="2" width="50" x="174.619289" y="230.456851"/>
+            <text id="settings" fill="#ffffff" font-family="Sans-serif" font-size="12"  stroke="#000000" stroke-width="0" text-anchor="middle" x="199.492385" xml:space="preserve" y="245.177664">Settings</text>
+            <rect id="start-stop" fill="#3b3e47" height="22"  rx="10" ry="10" stroke="#000000" stroke-width="2" width="74.873094" x="162.30964" y="202.197971"/>
+            <text id="start-stop" fill="#ffffff" font-family="Sans-serif" font-size="12"  stroke="#000000" stroke-width="0" text-anchor="middle" x="199.873092" xml:space="preserve" y="216.918783">Start / Reset</text>
+            <text fill="#000000" font-family="Sans-serif" font-size="12" font-weight="bold" id="svg_13" stroke="#000000" stroke-width="0" text-anchor="middle" x="200" xml:space="preserve" y="193">Score: XX / XX</text>
+        </g>
+    </g>
+</g>
+</svg>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simon Game - Stream 2 Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <section class="GameArea">
+            <div class="Circle">
+                <div class="Grid">
+                    <div class="GridElement">
+                        <!-- Top Left -->
+                    </div>
+                    <div class="GridElement">
+                        <!-- Top Center -->
+                        <button id="0" class="pad green"></button>
+                    </div>
+                    <div class="GridElement">
+                        <!-- Top Right -->
+                    </div>
+                    <div class="GridElement">
+                        <!-- Center Left -->
+                        <button id="1" class="pad yellow"></button>
+                    </div>
+                    <div class="GridElement">
+                        <!-- Center Center -->
+                        <div class="central-area">
+                            <label id="simon-label">Simon</label>
+                            <br>
+                            <div class="section section-power">
+                                <button id="power-on" class="power-btn power-on">On</button>
+                                <button id="power-off" class="power-btn power-off">Off</button>
+                            </div>
+                            <div class="section section-off">
+                                <button id="set-off" class="btn settings">Settings</button>
+                            </div>
+                            <div class="section section-game">
+                                <div class="section section-game-score">
+                                    <label id="score-label">Score:</label>
+                                    <label id="score-current"></label>
+                                    <label id="score-seperator"> / </label>
+                                    <label id="score-rounds"></label>
+                                </div>
+                                <div class="section section-game-win">
+                                    <label id="win-label">You've Won</label>
+                                </div>
+                                <button id="start-stop" class="btn"></button>
+                                <br>
+                                <button id="set-game" class="btn settings">Settings</button>
+                            </div>
+                            <div class="section section-set">
+                                <div class="section section-set-main">
+                                    <label id="settings-label">Settings</label>
+                                    <br>
+                                    <label id="rounds-label">No. of Rounds:</label>
+                                    <select id="rounds-select">
+                                        <option value="5">5</option>
+                                        <option value="10">10</option>
+                                        <option value="15">15</option>
+                                        <option value="20">20</option>
+                                    </select>
+                                    <br>
+                                    <button id="okSet" class="btn">Ok</button>
+                                    <button id="canSet" class="btn">Cancel</button>
+                                </div>
+                                <div class="section section-set-con">
+                                    <p id="con-txt-b" class="con-txt">Save Changes?</p>
+                                    <p id="con-txt_n" class="con-txt">This will reset the game.</p>
+                                    <button id="okCon" class="btn">Ok</button>
+                                    <button id="canCon" class="btn">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="GridElement">
+                        <!-- Center Right -->
+                        <button id="2" class="pad blue"></button>
+                    </div>
+                    <div class="GridElement">
+                        <!-- Bottom Left -->
+                    </div>
+                    <div class="GridElement">
+                        <!-- Bottom Center -->
+                        <button id="3" class="pad red"></button>
+                    </div>
+                    <div class="GridElement">
+                        <!-- Bottom Right -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
