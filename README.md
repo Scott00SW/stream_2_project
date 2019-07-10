@@ -2,7 +2,7 @@
 I have recreated the game Simon as a part of my Stream 2 Project for my Full Stack Developer Course that I am currently studying at the Code Institute.
 
 ## Project Link
-[https://scott00sw.github.io/stream_2_project/]([https://scott00sw.github.io/stream_2_project/])
+[https://scott00sw.github.io/stream_2_project/](https://scott00sw.github.io/stream_2_project/)
 
 ## UX
 My project is be based on a few examples that I have found on Code Pen. I have taken what I believe to be the best aspects of each of the three games interfaces, and have worked these into my design.
