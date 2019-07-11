@@ -3,6 +3,7 @@ Simon is an electronic memory game, where the player has to recite the pattern r
 
 ## Project Link
 ** Fully Functional Game at below link **
+
 [https://scott00sw.github.io/stream_2_project/](https://scott00sw.github.io/stream_2_project/)
 
 ## UX
