@@ -37,6 +37,26 @@ The project uses **JQuery** to simplify DOM manipulation, and make the game more
 The project uses **SVG** for creating the Wireframes and for designing the project's GUI.
 
 ## Testing
+### HTML & CSS Validation Checks
+#### HTML
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fscott00sw.github.io%2Fstream_2_project%2Findex.html
+##### Result
+    Document checking completed. No errors or warnings to show.
+
+    Used the HTML parser. Externally specified character encoding was utf-8.
+
+    Total execution time 97 milliseconds.
+
+#### CSS
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fscott00sw.github.io%2Fstream_2_project%2Fcss%2Fstyle.css
+##### Result
+    Document checking completed. No errors or warnings to show.
+
+    Total execution time 123 milliseconds.
+
+
+
+### Javascript Testing
 I conducted my own user testing and debugging throughout the projects creation, to test that all the mark-up and code works as intended. These test outcomes are visible in the browser's console and each message is outputted to the console when a particular event occurs. I have listed each of the console outputs below alongside line numbers.
 
 #### Line 40 - Confirms a game has been stared:
