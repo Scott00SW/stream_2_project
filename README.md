@@ -22,6 +22,8 @@ My project is be based on a few examples that I have found on Code Pen. I have t
 ## Features
 This game will allows the user to set the game length that they wish to play. User can select from 5, 10, 15, or 20 moves per game. This can be set within the settings screen of the game by clicking the settings button.
 
+**Please Note, The power must be switched on to start playing a game.**
+
 ### Technologies Used
 #### HTML
 The project uses **HTML** for the games structure. This is essentially the foundation of this project.
@@ -55,8 +57,6 @@ https://validator.w3.org/nu/?doc=https%3A%2F%2Fscott00sw.github.io%2Fstream_2_pr
     Document checking completed. No errors or warnings to show.
 
     Total execution time 123 milliseconds.
-
-
 
 ### Javascript Testing
 I conducted my own user testing and debugging throughout the projects creation, to test that all the mark-up and code works as intended. These test outcomes are visible in the browser's console and each message is outputted to the console when a particular event occurs. I have listed each of the console outputs below alongside line numbers.
